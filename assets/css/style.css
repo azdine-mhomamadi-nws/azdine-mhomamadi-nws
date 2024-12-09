@@ -1,9 +1,8 @@
-
 html {
-  background: url('/assets/images/anime-style-earth.jpg') no-repeat center center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
+  background: url("/assets/images/anime-style-earth.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.389);
 }
@@ -12,35 +11,37 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+    sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
 }
+
 #container {
-  border:0px solid #0da937;
+  border: 0px solid #0da937;
   display: flex;
   justify-content: space-around;
 }
 
 #container section {
-  width:45%;
+  width: 45%;
   background-color: rgba(0, 0, 0, 0.3);
-  color:#FFF;
-  border : 1px solid #000000;
+  color: #fff;
+  border: 1px solid #000000;
 }
+
 #container section:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 .gifContainer {
-  width: 800px; 
-  height:400px;
-  background-image: url('http://1986.1.9.pic.centerblog.net/29101115.gif'); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center; 
+  width: 800px;
+  height: 400px;
+  background-image: url("http://1986.1.9.pic.centerblog.net/29101115.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 
 #contact {
   display: flex;
@@ -49,61 +50,60 @@ body {
   justify-content: space-around;
   flex-direction: row;
   color: #ffffff;
-  
-  padding:10px;
+
+  padding: 10px;
   margin: 0px;
   background-color: rgba(255, 255, 255, 0);
-
 }
 
-li{
+li {
   border: 1px solid rgb(0, 0, 0);
   padding: 5px 10px;
-  background-color:rgb(201, 180, 60);
-  margin:0px;
-  color: #000000;  
+  background-color: rgb(201, 180, 60);
+  margin: 0px;
+  color: #000000;
   cursor: pointer;
-  border-radius:30px;
+  border-radius: 30px;
 }
 
-li:hover{
-   
-  background-color: #FFF;
-  color:#000000;
-  border-radius:30px;
+li:hover {
+  background-color: #fff;
+  color: #000000;
+  border-radius: 30px;
 }
-
-
 
 #menuMain {
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
   background: linear-gradient(rgba) rgba(255, 251, 0, 0.758);
   font-family: Arial, sans-serif;
   color: rgb(223, 0, 0);
-  
 }
-
-
-
 
 #menuMain a {
   text-transform: uppercase;
- text-decoration: none;
- color:#000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 #menuMain a:visited {
-  color:#000000;
+  color: #000000;
 }
 
 h2 {
   text-transform: uppercase;
+  text-align: center; 
+  padding: 20px;
   text-shadow: rgb(201, 180, 60) 0 -10px 45%;
   font-size: 24px;
-
-
 }
+
+.textBold {
+  display: flex;
+  justify-content: space-between; 
+}
+.textBold p {
+  margin: 
