@@ -315,6 +315,60 @@ body {
 }
 
 
+/*---langues----*/
+
+
+.Langues{
+    min-height: 100vh;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+
+.Langues .langues-content .block h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.Langues .langues-content .block ul{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+/*---centre d'intérêt----*/
+
+
+.Project{
+    min-height: 100vh;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+
+.Project .project-content .block h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.Project .project-content .block p{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
 /*---swip up effect scroll----*/
 
 .accueil-swip_up_scroll{
