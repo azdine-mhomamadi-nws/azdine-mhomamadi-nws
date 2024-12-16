@@ -28,6 +28,7 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
   border: 1px solid #000000;
+  justify-content: space-between;
 }
 
 #container section:hover {
@@ -101,9 +102,3 @@ h2 {
   font-size: 24px;
 }
 
-.textBold {
-  display: flex;
-  justify-content: space-between; 
-}
-.textBold p {
-  margin: 
