@@ -1,6 +1,7 @@
 
 html {
-    background: url('assets/images/background.jpg') no-repeat center center fixed;
+    /*background: url('assets/images/background.jpg') no-repeat center center fixed;*/
+    background: url(/assets/images/background.jpg)  no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,12 +13,14 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+    padding:0px;
+    margin:0px;
 }
 
 /* header css */
 
 .header {
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     z-index: 1000;
     background: #000;
@@ -36,12 +39,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 110vh;
+    /*min-height: 110vh;*/
     background-color: rgba(37, 34, 34, 0.181);
 }
 
 .nav{
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     display: flex;
     justify-content: space-around;
