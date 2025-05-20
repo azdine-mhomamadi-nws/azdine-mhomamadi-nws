@@ -1,4 +1,5 @@
-:root {
+body {
+  /*background: url('assets/images/background.jpg') no-repeat center center fixed;*/
   --bleu-fond: rgb(52, 81, 159);
   --or-texte: rgb(212, 175, 55);
   --or-foncé: #bfa032;
@@ -96,7 +97,7 @@ nav li a:hover {
 
 .hero p {
   font-size: 1.2rem;
-  color: var(--blanc);
+  color:floralwhite;
 }
 
 section {
