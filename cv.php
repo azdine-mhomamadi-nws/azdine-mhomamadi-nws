@@ -1,6 +1,33 @@
 <?php
 // Définir le titre de la page//
-$titre = "Azdine Mhoma – Portfolio"
+$titre = 'Azdine Mhoma – Portfolio';
+$prenom = 'Azdine MHOMA';
+$nom = 'MHOMA madi';
+$status = ['Chef de projet digital','Photographe', 'Bachelor chef de projet digital'];
+$experience = [
+  [
+    "entreprise" =>"ESMGA",
+    "annee" => "(2024–2025)",
+    "poste" =>'',
+    "description" =>''
+  ],
+  [
+    "entreprise" =>"Auchan",
+    "annee" =>'',
+    "poste" =>'',
+    "description" =>''
+  ]
+
+  ];
+
+
+$images = [
+"photo.esmga001.jpg",
+"photo.esmga002.jpg",
+"photo.esmga003.jpg"
+]
+
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -8,12 +35,12 @@ $titre = "Azdine Mhoma – Portfolio"
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title><?php echo $titre; ?></title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="assets/css/style.css" rel="style.css" />
 </head>
 <body>
   <header>
-    <div class="logo">Azdine Mhoma>
-      <img src="https://via.placeholder.com/300x200?text=Match+1" alt="MERCAZUR">
+    <div class="logo"
+      <img src="assets\images\logo\logo.noir01.jpg" alt="MERCAZUR">
     </div>
     <nav>
       <div class="toggle">☰</div>
@@ -30,9 +57,11 @@ $titre = "Azdine Mhoma – Portfolio"
     </nav>
   </header>
 
+  
   <section class="hero">
     <h1>Bienvenue sur mon Portfolio</h1>
-    <p>Chef de projet digital | Photographe | Bachelor chef de projet digital</p>
+    <p>Je suis, <?php echo $prenom; ?> et actuellement 
+    <p><?php echo implode(' | ', $status); ?></p>
   </section>
 
   <section id="profil" class="fade-in">
@@ -73,9 +102,9 @@ $titre = "Azdine Mhoma – Portfolio"
   <section id="carousel-photos" class="fade-in">
     <h2>Photos Sportives</h2>
     <div class="carousel">
-      <img src="https://via.placeholder.com/300x200?text=Match+1" alt="Match 1">
-      <img src="https://via.placeholder.com/300x200?text=Match+2" alt="Match 2">
-      <img src="https://via.placeholder.com/300x200?text=Interview" alt="Interview">
+      <?php foreach($images as $image) {
+      echo '<img src="assets/images/photo/'.$image.'" width="200px">'."\n";
+      } ?>
     </div>
   </section>
 
@@ -88,10 +117,17 @@ $titre = "Azdine Mhoma – Portfolio"
     </div>
   </section>
 
+
+
   <section id="blog" class="fade-in">
     <h2>Blog Marketing</h2>
     <div class="blog-article">
-      <h3>🧠 Pourquoi la data est-elle essentielle au marketing moderne ?</h3>
+      <?php
+      //Déclare le titre de l'article <<<
+      $str1 = <<< EOD
+      <h3>🧠 Pourquoi la data est-elle essentielle au marketing moderne ?</h3> 
+      EOD; 
+?>
       <p>La collecte et l'analyse des données permettent une prise de décision plus fine et stratégique...</p>
     </div>
     <div class="blog-article">
