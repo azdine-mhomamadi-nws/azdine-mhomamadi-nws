@@ -8,14 +8,28 @@ $experience = [
   [
     "entreprise" =>"ESMGA",
     "annee" => "(2024–2025)",
-    "poste" =>'',
-    "description" =>''
+    "poste" =>'Service civique – Chef de projet digital',
+    "description" =>'Au sein du club ESMGA, les missions réalisées incluent la production et la réalisation de contenu, ainsi que le montage et la retouche. 
+    (/n) De plus, la gestion des réseaux sociaux et des publications a été assurée, tout comme la création graphique.Par ailleurs, la gestion du compte META et la rédaction de contenus ont été prises en charge, 
+    en lien avec la mise en place d’une stratégie digitale et l’analyse des résultats.'
   ],
   [
     "entreprise" =>"Auchan",
-    "annee" =>'',
-    "poste" =>'',
-    "description" =>''
+    "annee" =>'(2022–2024)',
+    "poste" =>'Stage / Intérimaire',
+    "description" =>'J’ai assuré le conseil à la vente d’équipements électroménagers, en accompagnant les clients dans leur choix et en veillant à leur satisfaction.'
+  ],
+  [
+    "entreprise" =>"Naturéo",
+    "annee" =>'(2021 / 6 semaines de Stage)',
+    "poste" =>'Stage / Employé libre-service',
+    "description" =>"J'ai occupé le poste d’employé libre-service, ce qui m’a permis de participer à la mise en rayon, au réassort des produits et à l’entretien des espaces de vente, tout en assurant un bon contact avec la clientèle."
+  ],
+  [
+    "entreprise" =>"Mairie Saint Adresse",
+    "annee" => "2020 / 4 semaines de Stage",
+    "poste" =>"Stage / Archiviste Gestion des documents",
+    "description" => "J'ai occupé le poste d’archiviste, ce qui m’a permis de participer à la gestion, au classement et à la numérisation des documents administratifs, tout en respectant les procédures de conservation."
   ]
 
   ];
@@ -66,7 +80,12 @@ $images = [
 
   <section id="profil" class="fade-in">
     <h2>Profil</h2>
-    <p>Étudiant à la Normandie Web School, je développe des stratégies digitales créatives et performantes. Mon objectif : contribuer à la visibilité des marques par la création de contenu, la gestion de projet et l’analyse des données.</p>
+    <p>Étudiant en Bachelor Marketing Digital, je combine stratégie et créativité pour renforcer l’image de marque et la visibilité des projets. 
+      Mon expérience en club de football, en service civique et en photographie sportive m’a permis de développer des compétences en gestion de projet, communication et production de contenu.  </p>
+    <p>Je suis actuellement en 3ᵉ année à la Normandie Web School en tant que Chef de Projets Digitaux Junior, je me spécialise en marketing digital, communication et création de contenu. Mon expérience en club de football, en tent que CM en service civique et en photographie sportive m’a permis de développer des compétences en gestion de projet et en stratégie digitale. 
+      Curieux, rigoureux et investi, je suis prêt à apporter ma créativité et mon expertise au sein de votre structure ! </p>
+
+   
   </section>
 
   <section id="experiences" class="fade-in">
