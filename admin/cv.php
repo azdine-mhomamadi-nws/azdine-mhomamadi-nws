@@ -40,9 +40,10 @@ $images = [
 "photo.esmga002.jpg",
 "photo.esmga003.jpg"
 ]
-
-
 ?>
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -78,6 +79,10 @@ $images = [
     <p><?php echo implode(' | ', $status); ?></p>
   </section>
 
+
+
+
+  
   <section id="profil" class="fade-in">
     <h2>Profil</h2>
     <p>Étudiant en Bachelor Marketing Digital, je combine stratégie et créativité pour renforcer l’image de marque et la visibilité des projets. 
