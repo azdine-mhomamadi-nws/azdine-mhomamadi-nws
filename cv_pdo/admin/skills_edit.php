@@ -1,5 +1,5 @@
 <?php
-//skills_edit.php
+//page skills_edit.php
 require_once('../config/database.php');
 
 // Récupération et validation de l'ID
@@ -98,8 +98,7 @@ try {
                 </select>
             </div>
             <button type="submit">Modifier</button>
-            <a href="skills_listing.php">
-                <button type="button">Annuler</button>
+            <a href="skills_listing.php" class="btn-cancel">Annuler</a>
             </a>
         </form>
     </div>

@@ -1,6 +1,7 @@
 <?php
-//skills_listing.php
+//page skills_listing.php
 require_once('../config/database.php');
+
 
 // Définir les informations personnelles
 $titre = 'Azdine Mhoma – Portfolio';
@@ -149,7 +150,7 @@ if (empty($competences_grouped)) {
         </section>
 
         <section id="experiences" class="fade-in">
-            <h2>💼 Expériences Professionnelles</h2>
+            <h2 style="color: #007bff; margin: 5px 0;">💼 Expériences Professionnelles</h2>
             <?php if (!empty($experiences)): ?>
                 <?php foreach ($experiences as $exp): ?>
                     <div class="experience-item">

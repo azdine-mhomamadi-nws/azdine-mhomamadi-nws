@@ -1,6 +1,8 @@
 <?php
 //cv.php
-require_once('../config/database.php');
+//require_once('../cv_pdo/config/database.php');
+require_once('../../config/database.php');
+
 
 // Définir les informations personnelles (reprises de skills_listing.php)
 $titre = 'Azdine Mhoma – CV Professionnel';
@@ -226,8 +228,8 @@ if (empty($competences_grouped)) {
                 <h2>📞 Contact</h2>
                 <div class="contact-info">
                     <p><strong>Intéressé par mon profil ? N'hésitez pas à me contacter !</strong></p>
-                    <p>📧 Email : contact@portfolio.local</p>
-                    <p>📱 Téléphone : +33 X XX XX XX XX</p>
+                    <p>📧 Email : azdinemhoma@portfolio.gmail.com</p>
+                    <p>📱 Téléphone : +33 7 68 02 84 88 34</p>
                     <p>🌐 Portfolio en ligne : <a href="skills_listing.php">Voir le portfolio complet</a></p>
                 </div>
             </section>
@@ -265,3 +267,5 @@ if (empty($competences_grouped)) {
     </script>
 </body>
 </html>
+
+C:\Users\azdin\Local Sites\nws\app\public\cv_pdo/public/assets/cv.php

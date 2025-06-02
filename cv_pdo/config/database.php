@@ -5,3 +5,4 @@ $username = 'root';
 $password = 'root';
 $pdo = new PDO($dsn,$username,$password);
 ?>
+C:\Users\azdin\Local Sites\nws\app\public\cv_pdo\config\database.php
